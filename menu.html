@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e4e3fe8b04.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg=gray-100">
+    <!--Navbar-->
+    <nav class="fixed top-0 w-full bg-gray-900 text-white flex justify-between items-center px-8 py-4 z-50">
+       
+        <h1 class="text-white font-bold text-3xl ">The Gilded Table</h1>
+        
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="index.html" class="hover:text-white transition relative after:content[''] after:block after:h-0.5 after:w-full after:bg-red-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Home</a></li>
+                <li><a href="menu.html" class="hover:text-white transition relative after:content[''] after:block after:h-0.5 after:w-full after:bg-red-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Menu</a></li>
+                <li><a href="about.html" class="hover:text-white transition relative after:content[''] after:block after:h-0.5 after:w-full after:bg-red-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">About</a></li> 
+                <li><a href="contact.html" class="hover:text-white transition relative after:content[''] after:block after:h-0.5 after:w-full after:bg-red-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100">Contact</a></li>
+                
+            </ul>
+    </nav>
+    
+    <!--Menu Section -->
+    <main>
+    <section class="container mx-auto p-8">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-6">Our Menu</h2>
+        
+        <!--Starters-->
+        <div class="mb-8 cursor-pointer">
+            <h3 class="text-2xl font-semibold text-gray-700 pb-2">Starters</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-votsis-panagiotis-1883752-3493579.jpg" alt="Soup" class="w-full h-40 object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Tomato Basil Soup</h4>
+                    <p class="text-gray-600">Rich and creamy tomato soup with fresh basil.</p>
+                    <p class="text-gray-900 font-bold">1000/=</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-dana-tentis-118658-1213710.jpg" alt="Salad" class="w-full h-40  object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Greek Salad</h4>
+                    <p class="text-gray-600">Fresh greens, feta cheese, olives, and vinaigrette.</p>
+                    <p class="text-gray-900 font-bold">1600/=</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Main course -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-semibold text-gray-700 pb-2">Main Courses</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-nadin-sh-78971847-8694617.jpg" alt="Steak" class="w-full h-40  object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Grilled Ribeye Steak</h4>
+                    <p class="text-gray-600">Juicy ribeye steak served with rosemary butter.</p>
+                    <p class="text-gray-900 font-bold">4500/=</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-shameel-mukkath-3421394-17321123.jpg" alt="Lobster pasta" class="w-full h-40 object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Lobster pasta</h4>
+                    <p class="text-gray-600">Creamy lobster with a rich, cheesy sauce.</p>
+                    <p class="text-gray-900 font-bold">6000/=</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Dessert-->
+        <div class="mb-8">
+            <h3 class="text-2xl font-semibold text-gray-700 pb-2">Desserts</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-fernanda-lima-420898164-15805759.jpg" alt="Cake" class="w-full h-40  object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Chocolate Lava Cake</h4>
+                    <p class="text-gray-600">Warm chocolate cake with a molten center.</p>
+                    <p class="text-gray-900 font-bold">2200/=</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-barbland-28309088.jpg" alt="Sundae" class="w-full h-40  object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Ice cream Sundae</h4>
+                    <p class="text-gray-600">Classic Ice cream Sundae drizzled with fine chocolate</p>
+                    <p class="text-gray-900 font-bold">1500/=</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Drinks-->
+        <div class="mb-8">
+            <h3 class="text-2xl font-semibold text-gray-700 border-b-2  pb-2">Drinks</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-fotograf-jylland-1557004-2995333.jpg" alt="Wine" class="w-full h-40 object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Red Wine</h4>
+                    <p class="text-gray-600">Premium aged red wine with fruity undertones.</p>
+                    <p class="text-gray-900 font-bold">2000/= per glass</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <img src="assets/pexels-tonive-29791605.jpg" alt="Whiskey" class="w-full h-40  object-cover rounded-md">
+                    <h4 class="text-xl font-semibold mt-2">Single malt whiskey</h4>
+                    <p class="text-gray-600">Smooth and rich with notes of caramel and oak and a hint of smokiness</p>
+                    <p class="text-gray-900 font-bold">2500/= per glass</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <!--Footer section-->
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-6xl mx-auto grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          
+           <!--Quick Links-->
+           <div>
+            <h3 class="text-lg font-semibold mb-2">Quick links</h3>
+            <ul class="space-y-2">
+              <li><a href="#hero" class="text-gray-400 hover:text-white transition">Home</a></li>
+              <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+              <li><a href="#services" class="text-gray-400 hover:text-white transition">Services</a></li>
+              <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+            </ul>
+           </div>
+            <!--Social links-->
+             <div>
+              <h3 class="text-lg font-semibold mb-2">Contact</h3>
+              <p class="text-gray-400">Email:michellewanagri33@gmail.com</p>
+              <p class="text-gray-400">Phone: +254 789 756 657</p>
+             </div>
+             <div>
+              <h3 class="text-lg font-semibold mb-2 gap-8">Follow Us</h3>
+              <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+              
+             </div>
+    
+        </div>
+      </footer>
+
+    
+    
+</body>
+</html>
